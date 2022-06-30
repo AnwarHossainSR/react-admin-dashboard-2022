@@ -1,7 +1,7 @@
 .datatable {
     height: 600px;
     padding: 20px;
-    
+
     .datatableTitle{
       width: 100%;
       font-size: 24px;
@@ -10,7 +10,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-  
+
       .link{
         text-decoration: none;
         color: green;
@@ -22,11 +22,11 @@
         cursor: pointer;
       }
     }
-  
+
     .cellWithImg {
       display: flex;
       align-items: center;
-  
+
       .cellImg {
         width: 32px;
         height: 32px;
@@ -35,11 +35,11 @@
         margin-right: 20px;
       }
     }
-  
+
     .cellWithStatus {
       padding: 5px;
       border-radius: 5px;
-  
+
       &.active {
         background-color: rgba(0, 128, 0, 0.05);
         color: green;
@@ -53,12 +53,12 @@
         color: crimson;
       }
     }
-  
+
     .cellAction {
       display: flex;
       align-items: center;
       gap: 15px;
-  
+
       .viewButton {
         padding: 2px 5px;
         border-radius: 5px;
@@ -66,7 +66,7 @@
         border: 1px dotted rgba(0, 0, 139, 0.596);
         cursor: pointer;
       }
-      
+
       .deleteButton {
         padding: 2px 5px;
         border-radius: 5px;
